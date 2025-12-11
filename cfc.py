@@ -76,7 +76,7 @@ def compare_patch_variances(variances):
     }
 
 
-img = cv2.imread("real.png")
+img = cv2.imread("fake.png")
 score, var_map = cfa_periodicity_score(img)
 
 print("CFA periodicity score:", score)
